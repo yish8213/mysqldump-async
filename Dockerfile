@@ -8,6 +8,7 @@ RUN apt-get update && \
 	rm -rf /var/lib/apt/lists/*
 
 COPY my.cnf /etc/my.cnf
+COPY . /usr/src/app
 ENV PATH /usr/src/app:${PATH}
 
 VOLUME ["/usr/src/app/dumps"]
