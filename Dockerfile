@@ -1,4 +1,4 @@
-FROM node:7.0.0-onbuild
+FROM node:10.15.3-stretch-slim
 
 MAINTAINER Jaehoon Choi <plaintext@andromedarabbit.net>
 
